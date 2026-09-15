@@ -1,0 +1,103 @@
+body {
+  background: #f2f5fa;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.sidebar {
+  width: 220px;
+  background: #22335b;
+  color: white;
+  height: 100vh;
+  padding: 24px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.card {
+  background: white;
+  padding: 18px 24px;
+  border-radius: 10px;
+  min-width: 180px;
+  box-shadow: 0 2px 8px #eee;
+  text-align: center;
+}
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+}
+.students-table th,
+.students-table td {
+  border: 1px solid #eaeaea;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.students-table th {
+  background: #eef2fc;
+  font-weight: bold;
+}
+.student-form {
+  margin: 18px 0;
+  display: flex;
+  gap: 10px;
+}
+.student-form input {
+  padding: 4px 8px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+.student-form button {
+  padding: 4px 10px;
+  cursor: pointer;
+  background: #22335b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.sidebar nav button {
+  width: 100%;
+  background: #303c63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 0;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+.sidebar nav button:hover {
+  background: #475b8c;
+}
+
+.navbar {
+  background: #272f42;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: 0.15s;
+}
+.navbar a:hover { background: #475b8c;}
+
+.stat-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 22px 32px;
+  box-shadow: 0 2px 8px #eaeaea;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
