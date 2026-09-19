@@ -444,17 +444,6 @@ API_KEY=your_api_key
 | `DATABASE_PATH` | Location of the SQLite database        |
 | `API_KEY`       | API key used to protect secured routes |
 
-> Do not commit real API keys or other sensitive credentials to GitHub.
-
-It is recommended to add `.env` to `.gitignore`:
-
-```gitignore
-.env
-node_modules/
-database.sqlite
-```
-
----
 
 # ▶️ Running the Application
 
